@@ -85,13 +85,19 @@ What options were on the table? What did you not want to decide?]
    ```
 3. Keep the table sorted by ADR number ascending.
 
-### 5. Cross-reference from related files (if applicable)
+### 5. Cross-reference from related files and trigger re-derivation
 - If a spec was the trigger for this ADR, add a link to the ADR in that spec file.
 - If this ADR supersedes an earlier one, update the earlier ADR's status line:
   ```
   **Status:** Superseded by ADR-NNNN
   ```
   And update the index entry for the old ADR.
+- **Re-derivation trigger:** If this ADR is `Accepted` and changes a constraint or decision that
+  affects how planned work is done, open `plans/README.md` and find every formal plan whose
+  **Derived From** section lists this ADR. For each such plan, open the plan file and set:
+  ```
+  **Derivation Status:** STALE — [ADR-NNNN] accepted YYYY-MM-DD, re-derive before next execution
+  ```
 
 ---
 
@@ -108,6 +114,7 @@ What options were on the table? What did you not want to decide?]
 - [ ] At least two alternatives are documented
 - [ ] Index row added to `adr/README.md`
 - [ ] Any superseded ADR updated with new status
+- [ ] (If Accepted and affects planned work) Any plan listing this ADR in Derived From is marked `STALE`
 
 ## Related
 - Skill: `skills/create-adr.md`

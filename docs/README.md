@@ -4,13 +4,15 @@ All project content lives here. This folder is the root of the system design wor
 
 ---
 
-## Folder Index
+## Contents
 
-| Folder | Purpose |
-|--------|--------|
+| Path | Purpose |
+|------|---------|
+| [artifact.md](./artifact.md) | Foundational project definition — fill this in first |
+| [open-questions.md](./open-questions.md) | Living register of trade-offs and unresolved forks |
+| [architecture.md](./architecture.md) | Current-state system map — emergent, never assumed |
 | [adr/](./adr/README.md) | Architecture Decision Records — numbered, immutable, indexed |
-| [plan/](./plan/README.md) | Lightweight session-scoped working plans and scratchpads |
-| [plans/](./plans/README.md) | Formal versioned project plans with milestones |
+| [plans/](./plans/README.md) | All plans — working scratchpads and formal versioned roadmaps |
 | [procedures/](./procedures/README.md) | Atomic source-of-truth task instructions |
 | [research/](./research/README.md) | Research briefs, findings, technology evaluations |
 | [skills/](./skills/README.md) | Agent skill definitions that compose procedures |

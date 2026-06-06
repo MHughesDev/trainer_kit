@@ -13,8 +13,12 @@ Use this procedure when:
 ## Inputs
 Before starting, define:
 - The specific **question** being researched (one question per brief)
-- The **method** to be used (reading docs, running a prototype, reviewing benchmarks, etc.)
+- The **method** to be used — start with internet research into prevailing practice and existing
+  building blocks (APIs, services, libraries) before forming any opinion
 - The **scope boundary** — what are you explicitly not researching here?
+
+> Per the Research-First Protocol in `AGENT.md`, internet research is mandatory before designing.
+> If you cannot access the internet, stop and tell the user — do not substitute assumptions.
 
 ---
 
@@ -102,7 +106,12 @@ This is a recommendation, not a decision. Decisions belong in `adr/`.]
    | [file-name.md](./file-name.md) | [One-sentence question] | YYYY-MM-DD |
    ```
 
-### 5. Link forward (if applicable)
+### 5. Update the open-questions register
+- If this research was triggered by a trade-off in `docs/open-questions.md`, move that entry to
+  `Resolved`, record the answer, and link this brief as the evidence.
+- If the research surfaced new forks, add them to `docs/open-questions.md` as `Open`.
+
+### 6. Link forward (if applicable)
 - If this research was requested to inform a specific ADR or spec, add a note at the top of that ADR/spec:
   ```
   > See research: [research/file-name.md](../research/file-name.md)

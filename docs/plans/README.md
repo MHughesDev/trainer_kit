@@ -1,44 +1,54 @@
 # plans/
 
-Formal, versioned project plans. Use this folder for plans that need to persist across sessions, be shared with stakeholders, or serve as a milestone reference throughout the project lifecycle.
+All project plans live here — both lightweight working plans and formal versioned roadmaps.
+Use the `Type` field to distinguish them.
 
-> For lightweight session-scoped working notes, use `plan/` instead.
+---
+
+## Plan Types
+
+| Type | Use when | Lifespan |
+|------|----------|----------|
+| **Working** | Session scratchpad, spike outline, quick scope draft, open question tracker | Temporary — delete or archive when done |
+| **Formal** | Multi-phase roadmap, release plan, migration plan, anything shared with stakeholders | Persistent — versioned across sessions |
+
+A working plan is thinking in progress. A formal plan is a commitment made visible.
+
+**Plans are derived, never assumed.** A formal plan sequences work already established by the
+artifact, architecture, specs, ADRs, and research — every milestone and task traces to a source
+(see the plan's **Derived From** section). If the work has no source, the gap belongs upstream
+(a missing spec, ADR, or research brief), not in the plan.
 
 ---
 
 ## What Belongs Here
 
-- Project roadmaps
-- Release plans with defined milestones
-- Sprint or iteration plans that will be reviewed in retrospectives
-- Multi-phase technical migration plans
-- Dependency and sequencing diagrams
+- Quick scope notes for a session or sprint (Working)
+- Open question trackers before committing to a design (Working)
+- Project roadmaps with milestones (Formal)
+- Release plans with defined success signals (Formal)
+- Multi-phase technical migration plans (Formal)
 
 ## What Does Not Belong Here
 
-- Quick scratchpad notes → `plan/`
 - Architecture decisions → `adr/`
 - Feature specifications → `specs/`
 - Research findings → `research/`
+- The foundational project definition → `docs/artifact.md`
 
 ---
 
 ## Conventions
 
-- File names: `kebab-case.md`
-- Every plan should include:
-  - **Goal** — what does success look like at the end of this plan?
-  - **Scope** — what is explicitly in and out of scope?
-  - **Milestones** — numbered phases or checkpoints
-  - **Dependencies** — what must be true before this plan can proceed?
-  - **Risks** — what could cause this plan to fail? (link to failure modes from intake)
-- Plans reference research: `[research/topic.md](../research/topic.md)`
-- Plans reference ADRs for any major decisions baked into the approach
+- File names: `kebab-case.md` — date-prefix working plans if useful: `2024-01-15-auth-spike.md`
+- Every plan includes a `Type:` field in its header (Working | Formal)
+- Formal plans reference prior research and link to relevant ADRs
+- Working plans may be deleted once complete; formal plans use status `Complete` or `Superseded`
 
 ---
 
 ## Index
 
-| File | Description | Status |
-|------|-------------|--------|
-| *(empty — add your first project plan)* | — | — |
+| File | Type | Description | Status |
+|------|------|-------------|--------|
+| [example-task-management-app.md](./example-task-management-app.md) | Formal | Example formal plan — delete after reading | Example |
