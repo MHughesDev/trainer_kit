@@ -4,9 +4,10 @@
 Produce a focused, evidence-based research brief that answers a specific question and provides a recommendation — without making the decision.
 
 ## When to Use
+- **Always, before writing any spec, architecture entry, or decision** (Research-First Protocol, `AGENT.md` §3)
 - You need to evaluate two or more technology or design options
 - A significant unknown must be resolved before planning or specifying can proceed
-- A failure mode from the project intake points at a technical risk that needs investigation
+- A failure mode from the artifact points at a technical risk that needs investigation
 - Prior art needs to be surveyed before designing a solution
 
 ---
@@ -45,11 +46,12 @@ The recommendation section should:
 - Identify any conditions under which a different option would be better
 - Explicitly *not* make the decision — that belongs in an ADR
 
-### 5. Flag follow-on actions
-After completing the brief, identify:
+### 5. Update the open-questions register and flag follow-on actions
+After completing the brief:
+- Move any `docs/open-questions.md` entry this brief resolved to `Resolved`, citing this brief.
+- Add any new forks the research surfaced as `Open` entries.
 - Does this research warrant an ADR? → run `skills/create-adr.md`
 - Does this research change the project plan? → update `plans/`
-- Are there open questions that need a second research brief?
 
 ---
 

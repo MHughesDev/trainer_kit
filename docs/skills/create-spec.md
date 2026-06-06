@@ -20,8 +20,11 @@ Guide the creation of a specification file that is precise enough to implement w
 
 ### 1. Confirm prerequisites
 Before writing a spec, verify:
-- [ ] Relevant research exists in `research/` (or the question is trivial)
-- [ ] Success criteria from the project intake are accessible
+- [ ] **Internet research is done** (Research-First Protocol) — you understand prevailing practice,
+      existing building blocks, and the trade-offs. Never spec from assumption.
+- [ ] Relevant research briefs exist in `research/`
+- [ ] Trade-offs are logged in `docs/open-questions.md`
+- [ ] The artifact's success conditions are accessible (`docs/artifact.md`)
 - [ ] Any upstream ADRs that constrain this design are written
 
 If research is missing, run `skills/create-research-brief.md` first.
@@ -33,6 +36,7 @@ If research is missing, run `skills/create-research-brief.md` first.
 | What a service/module does internally | Component |
 | What data looks like | Data |
 | How to talk to an external system | Integration |
+| The map of how many specs fit together | System-overview |
 
 ### 3. Draft the non-goals first
 Before filling in behavior, write the **Non-Goals** section. This prevents scope from expanding during writing and surfaces hidden assumptions.
@@ -43,8 +47,8 @@ Follow the procedure, paying special attention to:
 - Edge cases and error states must be explicitly documented — implementation will hit them regardless
 - The spec should be implementable by someone who has never spoken to you
 
-### 5. Review against success criteria
-After writing the spec, check each success criterion from the project intake:
+### 5. Review against the artifact's success conditions
+After writing the spec, check each success condition in `docs/artifact.md`:
 - Is it covered by acceptance criteria in this or another spec?
 - If not, either add acceptance criteria or create a new spec for the gap.
 

@@ -29,7 +29,8 @@ If all three are yes, proceed. If the answer is "this was obvious" or "there was
 ### 2. Gather context before writing
 Before opening a file, collect:
 - What situation forced this decision?
-- What options were considered (at least two)?
+- What options were considered (at least two)? — these should already be researched and logged in
+  `docs/open-questions.md`; an ADR records a decision, it does not substitute for the research behind it
 - What are the known trade-offs of the chosen option?
 - Who was involved in making this decision?
 
@@ -50,6 +51,8 @@ Follow the procedure exactly, including:
 ### 5. Link to related artifacts
 - Spec that prompted this ADR → add ADR link in spec's Related section
 - Research that informed this ADR → add research link in ADR's References
+- Open-questions entry this ADR settles → mark it `Resolved` in `docs/open-questions.md`
+- If the decision changes the system's shape → update `docs/architecture.md`
 - If superseding an old ADR → update the old ADR's status field
 
 ---

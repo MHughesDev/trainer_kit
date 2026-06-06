@@ -22,7 +22,7 @@ ADRs are immutable historical records. When a decision changes, a new ADR is cre
 
 | # | Title | Status | Date |
 |---|-------|--------|------|
-| — | *(no ADRs yet — add the first one)* | — | — |
+| 0001 | [Use Clerk for Authentication](./0001-example-use-clerk-for-auth.md) | Accepted | 2024-03-08 |
 
 ---
 
