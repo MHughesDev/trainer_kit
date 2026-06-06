@@ -51,4 +51,4 @@ artifact, architecture, specs, ADRs, and research — every milestone and task t
 
 | File | Type | Description | Status |
 |------|------|-------------|--------|
-| [example-task-management-app.md](./example-task-management-app.md) | Formal | Example formal plan — delete after reading | Example |
+| _none yet_ | — | — | — |

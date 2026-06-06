@@ -40,4 +40,4 @@ Research briefs, technology evaluations, competitive analyses, and findings from
 
 | File | Question | Date |
 |------|----------|------|
-| [example-auth-provider-comparison.md](./example-auth-provider-comparison.md) | Which auth provider fits a B2B SaaS with multi-tenancy and a 2-person team? | 2024-03-01 |
+| _none yet_ | — | — |
