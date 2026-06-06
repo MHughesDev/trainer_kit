@@ -90,4 +90,4 @@ Retiring or replacing a spec fires the plan re-derivation trigger; see `add-spec
 
 | File | Spec ID | Type | Status | Related ADR(s) |
 |------|---------|------|--------|----------------|
-| [FEAT-001-user-authentication.md](./FEAT-001-user-authentication.md) | FEAT-001 | Feature | Approved | ADR-0001 |
+| _none yet_ | — | — | — | — |

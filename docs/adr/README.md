@@ -22,7 +22,17 @@ ADRs are immutable historical records. When a decision changes, a new ADR is cre
 
 | # | Title | Status | Date |
 |---|-------|--------|------|
-| 0001 | [Use Clerk for Authentication](./0001-example-use-clerk-for-auth.md) | Accepted | 2024-03-08 |
+| 0001 | [Inject Dependencies via Typing Protocols](./0001-inject-dependencies-via-protocols.md) | Accepted | 2026-06-06 |
+| 0002 | [Keep the Engine Time-Agnostic; DataSource Yields Pre-Windowed Batches](./0002-time-agnostic-engine.md) | Accepted | 2026-06-06 |
+| 0003 | [Start in 0.x, Commit to SemVer at 1.0 with a Deprecation Cycle](./0003-versioning-policy.md) | Accepted | 2026-06-06 |
+| 0004 | [Checkpointing via Caller-Owned Path Behind a Checkpointer Protocol Seam](./0004-checkpoint-seam.md) | Accepted | 2026-06-06 |
+| 0005 | [Distribute via VCS Pre-1.0, PyPI at 1.0](./0005-distribution.md) | Accepted | 2026-06-06 |
+| 0006 | [Support Python ≥ 3.10 and a Tested PyTorch Range](./0006-version-matrix.md) | Accepted | 2026-06-06 |
+| 0007 | [Reserve an Internal Device/Placement Seam for Future Multi-GPU](./0007-device-seam.md) | Accepted | 2026-06-06 |
+| 0008 | [Library-Managed Seeding, Golden-Run Tests, and a Leakage Guard](./0008-correctness-strategy.md) | Accepted | 2026-06-06 |
+| 0009 | [Stateful Accumulator Metric Protocol](./0009-stateful-metrics.md) | Accepted | 2026-06-06 |
+| 0010 | [Lifecycle-Hook Logger Protocol with Structured Payloads](./0010-logger-protocol.md) | Accepted | 2026-06-06 |
+| 0011 | [Single Typed `fit()` Entry Point with a TrainConfig Dataclass](./0011-entry-point.md) | Accepted | 2026-06-06 |
 
 ---
 
