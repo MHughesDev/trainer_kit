@@ -51,4 +51,4 @@ artifact, architecture, specs, ADRs, and research — every milestone and task t
 
 | File | Type | Description | Status |
 |------|------|-------------|--------|
-| _none yet_ | — | — | — |
+| [trainer-kit-v1-implementation.md](./trainer-kit-v1-implementation.md) | Formal | Complete v1 implementation roadmap: scaffold → protocols → config → engine → entry points → tests → timeseries | Draft |

@@ -90,4 +90,11 @@ Retiring or replacing a spec fires the plan re-derivation trigger; see `add-spec
 
 | File | Spec ID | Type | Status | Related ADR(s) |
 |------|---------|------|--------|----------------|
-| _none yet_ | — | — | — | — |
+| [SYS-001-system-overview.md](./SYS-001-system-overview.md) | SYS-001 | System-overview | Draft | ADR-0001, ADR-0011 |
+| [COMP-001-package-structure.md](./COMP-001-package-structure.md) | COMP-001 | Component | Draft | ADR-0005, ADR-0006 |
+| [COMP-002-protocol-definitions.md](./COMP-002-protocol-definitions.md) | COMP-002 | Component | Draft | ADR-0001, ADR-0004, ADR-0009, ADR-0010 |
+| [DATA-001-config-and-result-types.md](./DATA-001-config-and-result-types.md) | DATA-001 | Data | Draft | ADR-0008, ADR-0011 |
+| [COMP-003-training-engine.md](./COMP-003-training-engine.md) | COMP-003 | Component | Draft | ADR-0002, ADR-0007, ADR-0008 |
+| [FEAT-001-fit-and-evaluate.md](./FEAT-001-fit-and-evaluate.md) | FEAT-001 | Feature | Draft | ADR-0001, ADR-0007, ADR-0011 |
+| [COMP-004-timeseries-helpers.md](./COMP-004-timeseries-helpers.md) | COMP-004 | Component | Draft | ADR-0002, ADR-0009 |
+| [COMP-005-test-suite.md](./COMP-005-test-suite.md) | COMP-005 | Component | Draft | ADR-0008 |
